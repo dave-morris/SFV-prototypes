@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SFV Margins and Promo Configuration</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+      $( document ).ready(function() {
+
+        $("#1").click(function() {
+
+          $('.media-item__title').removeClass('max-width');
+          $('.media-item__description').removeClass('max-width');
+          $('.section-header').removeClass('max-width');
+          $('.promo-list').removeClass('max-width');
+
+        });
+
+        $("#2").click(function() {
+
+          $('.media-item__title').addClass('max-width');
+          $('.media-item__description').addClass('max-width');
+          $('.section-header').addClass('max-width');
+          $('.promo-list').addClass('max-width');
+
+        });
+
+        $("#3").click(function() {
+
+          $('.promo').removeClass('max half third').addClass('third');
+
+        });
+
+        $("#4").click(function() {
+
+          $('.promo').removeClass('max half third').addClass('half');
+
+        });
+
+        $("#5").click(function() {
+
+          $('.promo').removeClass('max half third').addClass('max');
+
+        });
+
+
+      });
+
+    </script>
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="button-container">
+
+        <button id="1" class="full-width-button">
+          Full Width
+        </button>
+        <button id="2" class="max-width-column">
+          Max width column
+        </button>
+        <button id="3" class="third-width-promos">
+          Images third width
+        </button>
+        <button id="4" class="half-width-promos">
+          Images half width
+        </button>
+        <button id="5" class="half-width-promos">
+          Images max width (220px)
+        </button>
+        
+      </div>
+    </div>
+
+    <div class="wrapper">
+
+      <div class="media-item">
+        <video src="./video.mp4" controls poster="./p07r2w3q.jpg"></video>
+        <div class="media-item__title type-ihm max-width">Frampton tops 12-second challenge - can you beat him?</div>
+        <div class="media-item__description type-copy max-width">Simone Biles performs two moves which no woman has ever completed before, having them both named after her in the process, at the World Gymnastics Championships in Stuttgart.</div>
+        <div class="media-item__meta type-meta">Duration | Attribution</div>
+      </div>
+
+      <div class="section-header type-ihm">
+        Top Videos
+      </div>
+
+
+
+    <div class="promo-list">
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07qnpyy.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Amazing 360 dunk by rookie in NBA pre-season
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07bkfhc.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Akers wins first Women's World Cup final in 1991
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07c16sm.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Watch: Incredible scenes at Liverpool victory parade
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07c2pxy.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Moeen gets breakthrough after strong Pakistan start
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p079kv5p.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      I thought I'd never play tennis again - Azarenka on pregnancy
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07c0htl.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Joshua vows to regain titles after 'minor setback'
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07pn6f8.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Man Utd 8-2 Arsenal: Things you've probably forgotten...
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07pmstk.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Best moments as Georgia and Wales win at World Cup
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+        <div class="promo max">
+  <div class="promo__image">
+    <div class="promo__image-sizing">
+      <img src="https://ichef.bbci.co.uk/images/ic/976xn/p07pj476.jpg" alt="">
+    </div>
+
+  </div><div class="promo__text">
+    <div class="promo__title type-ihs">
+      Smalling explains his decision to go vegan
+    </div>
+
+    <div class="promo__meta type-meta">
+      Timestamp | Attribution
+    </div>
+
+  </div>
+</div>
+
+      
+
+    </div>
+
+  </div>
+
+  </body>
+</html>
+
